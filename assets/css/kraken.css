@@ -1,0 +1,86 @@
+h1 {color: #f1f0de;}
+h2, h3, h4, h5, h6 {color: #0ba15e;}
+.lead {color: #0ba15e;}
+
+.just {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+a {color: #171d22;}
+a:hover { background-color: none; text-decoration: none;}
+
+.top-menu {background: #0ba15e}
+ul.menu.horizontal.lg {background-color: #0ba15e;}
+ul.menu>li.active a {text-decoration: none; background-color: #171d22; text-decoration: none!important;}
+.ink-navigation ul.menu li ul.submenu {background-color: #0ba15e!important;}
+li > a {color: #f1f0de;}
+
+li a:hover {text-decoration: none; color: #f1f0de; background-color: #171d22;}
+
+html, body {height: 100%; background: #171d22;}
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 125%;
+  color: #f1f0de;
+}
+.wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -50px;
+  overflow: auto;
+}
+.push, footer {
+  height: 50px;
+  margin-top: 0;
+}
+.clearfix {background: #0ba15e; color: #f1f0de;}
+footer {
+  background: #0ba15e;
+  border: 0;
+}
+footer * {
+  line-height: inherit;
+}
+.note {color: #f1f0de}
+.center-text {text-align: center;}
+
+.panel-head {background-color: #0ba15e; color: #f1f0de; font-size: xx-large; padding: 5px;}
+.panel-bod {background-color: #f1f0de; color: #171d22; padding: 5px;}
+.panel-foot {background-color: #0ba15e; color: #f1f0de; font-size: small; padding: 5px;}
+
+.panel-button {background-color: #f1f0de; color: #171d22; padding: 5px; position: relative; /*border-radius: 50%;*/ width: 100%; height: auto; padding-top: 100%; border: 8px solid #0ba15e; padding: 60px 0px 60px 0px;}
+.panel-button:hover {background-color: #171d22;}
+
+#map {height: 400px; width: 100%;}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+ color: white;
+ font: bold 24px/45px;
+ letter-spacing: -1px;
+ background: rgb(0, 0, 0); /* fallback color */
+ background: rgba(0, 0, 0, 0.7);
+ padding: 10px;
+ position: relative;
+ top: -50px;
+ left: 0;
+ width: 100%;
+ z-index: 999;
+}
